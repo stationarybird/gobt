@@ -26,3 +26,6 @@ func SudoSetNetworkRateLimitExt(c *client.Client, rateLimit types.U64) (*extrins
 	ext := extrinsic.NewExtrinsic(call)
 	return &ext, nil
 }
+
+
+
